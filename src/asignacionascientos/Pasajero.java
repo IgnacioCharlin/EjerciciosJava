@@ -1,4 +1,4 @@
-package ar.edu.unlam.asignacionascientos;
+package asignacionascientos;
 
 public class Pasajero {
 
@@ -43,8 +43,5 @@ public class Pasajero {
 	}
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
-	}
-	
-	
-	
+	}	
 }

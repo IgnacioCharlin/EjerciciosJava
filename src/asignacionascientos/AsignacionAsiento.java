@@ -1,4 +1,4 @@
-package ar.edu.unlam.asignacionascientos;
+package asignacionascientos;
 
 public class AsignacionAsiento {
 
@@ -59,11 +59,5 @@ public class AsignacionAsiento {
 	}
 	public void setAsciento(String asciento) {
 		this.asciento = asciento;
-	}
-	
-	
-	
-	
-	
-	
+	}	
 }

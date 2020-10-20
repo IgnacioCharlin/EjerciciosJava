@@ -1,4 +1,6 @@
-package ar.edu.unlam.asignacionascientos;
+package asignacionascientos;
+
+import java.util.ArrayList;
 
 public class Vuelo {
 
@@ -7,8 +9,9 @@ public class Vuelo {
 	private String origen;
 	private String destino;
 	private Avion  avion;
+	private ArrayList<Pasajero> pasajeros;
 	public Vuelo(Integer id, String origen, String destino, Avion avion) {
-		
+		pasajeros = new ArrayList<Pasajero>();
 		this.id = id;
 		this.origen = origen;
 		this.destino = destino;
@@ -62,8 +65,7 @@ public class Vuelo {
 		this.avion = avion;
 	}
 	
-	
-	
-	
-	
+	public Boolean agregarPasajeroAVuelo(Pasajero asignado) {
+		return pasajeros.add(asignado);
+	}
 }

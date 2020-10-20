@@ -1,4 +1,4 @@
-package ar.edu.unlam.asignacionascientos;
+package asignacionascientos;
 
 import java.util.ArrayList;
 
@@ -56,6 +56,10 @@ public class Avion {
 		return true;
 	}
 	
-	
+	public void crearAscientos() {
+		for (int i = 0; i < 50; i++) {
+			listaAscientos.add(String.valueOf(i));
+		}
+	}
 
 }
